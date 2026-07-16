@@ -1,0 +1,80 @@
+SQL Practice Questions - Day 2
+Date: 14/07/2026
+
+=========================================
+🟢 Section A: Basic Level
+=========================================
+
+1. Display the first 5 rows of the dataset.
+
+2. Check the total number of rows in the dataset.
+
+3. Find the number of missing values in each column.
+
+4. Replace missing values in the marks column with the average marks.
+
+5. Display only the name and marks columns.
+
+=========================================
+🟡 Section B: Filtering & Sorting
+=========================================
+
+6. Display students who scored more than 160 marks.
+
+7. Display students from the "CS" department.
+
+8. Show students who have attendance greater than 85 and marks greater than 150.
+
+9. Sort the dataset by marks in descending order.
+
+10. Display the top 3 students based on marks.
+
+=========================================
+🟠 Section C: Column Transformations
+=========================================
+
+11. Create a new column percentage assuming total marks are 200.
+
+12. Create a new column grade using:
+    - A → Percentage ≥ 85
+    - B → Percentage ≥ 70
+    - C → Percentage ≥ 50
+    - Fail → Otherwise
+
+13. Add 5 bonus marks to every student.
+
+14. Create a new column result where:
+    - Pass → Percentage ≥ 40
+    - Fail → Otherwise
+
+15. Convert all student names to uppercase.
+
+=========================================
+🔵 Section D: Group By & Aggregation
+=========================================
+
+16. Find the average marks of each department.
+
+17. Find the maximum marks scored in each city.
+
+18. Count the number of students in each department.
+
+19. Find the department with the highest average marks.
+
+20. Create a report showing average marks by department and city.
+
+=========================================
+🔴 Section E: Advanced Level
+=========================================
+
+21. Rank students based on marks (Highest Marks = Rank 1).
+
+22. Find students whose marks are above the overall average marks.
+
+23. Standardize the marks column using the Min-Max Scaling formula.
+
+24. Categorize attendance into:
+    - Excellent (Attendance ≥ 90)
+    - Good (Attendance 80–89)
+    - Average (Attendance 70–79)
+    - Poor (Attendance < 70)
