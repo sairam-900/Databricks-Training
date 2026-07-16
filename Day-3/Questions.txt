@@ -1,0 +1,294 @@
+SQL Practice Questions - JOINS & SET OPERATORS
+
+=========================================
+BASIC ASSIGNMENTS
+=========================================
+
+INNER JOIN
+-----------------------------------------
+
+1. Display employee names with department names.
+2. Display project names with department names.
+3. Show employees along with project names.
+4. Show employee salary and department location.
+5. Display all employees working on projects.
+
+-----------------------------------------
+LEFT JOIN
+-----------------------------------------
+
+6. Show all employees even if they don't belong to any department.
+7. Show all departments even if no employee works there.
+8. Show all projects and their department names.
+9. Show every employee and their assigned projects.
+10. Display all employees even if they are not assigned to any project.
+
+-----------------------------------------
+RIGHT JOIN
+-----------------------------------------
+
+11. Show all departments even if there are no employees.
+12. Show all projects even if no employee is assigned.
+13. Display every department and employees.
+14. Show all projects with departments.
+15. Show every project assignment including projects without employees.
+
+-----------------------------------------
+FULL JOIN
+-----------------------------------------
+
+16. Show all employees and all departments.
+17. Show all departments and projects.
+18. Display all employees and projects.
+19. Show every department whether employees exist or not.
+20. Show all departments and projects including unmatched records.
+
+=========================================
+INTERMEDIATE ASSIGNMENTS
+=========================================
+
+INNER JOIN
+-----------------------------------------
+
+21. Show employees whose department is IT.
+22. Display employees working on projects with budget above 200000.
+23. Show employee names, department names and project names.
+24. Display total employees in each department.
+25. Show average salary department-wise.
+
+-----------------------------------------
+LEFT JOIN
+-----------------------------------------
+
+26. Find employees without departments.
+27. Find employees without projects.
+28. Find departments without employees.
+29. Find projects without departments.
+30. Show departments with total employees including zero employees.
+
+-----------------------------------------
+RIGHT JOIN
+-----------------------------------------
+
+31. Find departments having no employees.
+32. Find projects without employees.
+33. Show departments even if no projects exist.
+34. Count employees in every department.
+35. List every project whether employees are assigned or not.
+
+-----------------------------------------
+FULL JOIN
+-----------------------------------------
+
+36. Display all departments and employees.
+37. Show unmatched employees.
+38. Show unmatched departments.
+39. Show all employees and departments with NULL handling.
+40. Display departments and projects including unmatched rows.
+
+=========================================
+ADVANCED ASSIGNMENTS
+=========================================
+
+INNER JOIN
+-----------------------------------------
+
+41. Find highest-paid employee in every department.
+42. Find department having highest average salary.
+43. Find employee working on highest-budget project.
+44. Show managers and their employees.
+45. Find employees working on more than one project.
+
+-----------------------------------------
+LEFT JOIN
+-----------------------------------------
+
+46. Find employees not assigned to any project.
+47. Find departments having no projects.
+48. Find departments having employees but no projects.
+49. Show employees with project count.
+50. Show project count department-wise including zero.
+
+-----------------------------------------
+RIGHT JOIN
+-----------------------------------------
+
+51. Find projects without employees.
+52. Find departments without projects.
+53. Find projects whose department doesn't exist.
+54. Find orphan employee records.
+55. Display every department and employee count.
+
+=========================================
+LEFT ANTI JOIN
+=========================================
+
+56. Find employees without departments.
+57. Find departments without employees.
+58. Find employees without projects.
+59. Find departments without projects.
+60. Find projects without departments.
+
+=========================================
+RIGHT ANTI JOIN
+=========================================
+
+61. Departments without employees.
+62. Projects without employees.
+63. Departments without projects.
+64. Employees whose departments don't exist.
+65. Projects whose departments don't exist.
+
+=========================================
+FULL ANTI JOIN
+=========================================
+
+66. Find all unmatched employees and departments.
+67. Find all unmatched departments and employees.
+68. Find projects without departments and departments without projects.
+69. Find employees without projects and projects without employees.
+70. Show all orphan records across Employees and Departments.
+
+=========================================
+EXPERT LEVEL CHALLENGES
+=========================================
+
+71. Find the department with the highest project budget.
+72. Find employees working in departments without projects.
+73. Find projects having multiple employees.
+74. Find employees assigned to projects outside their own department.
+75. Find departments where every employee is assigned to a project.
+76. Find employees who share the same manager.
+77. Find departments with no managers.
+78. Find managers with more than three employees.
+79. Find employees hired before their manager.
+80. Create one report showing:
+    - Employee Name
+    - Department
+    - Project
+    - Budget
+    - Manager Name
+    - Salary
+    - Department Location
+
+=========================================
+SET OPERATORS
+=========================================
+
+BASIC ASSIGNMENTS
+
+UNION
+-----------------------------------------
+
+81. Display all employee names from current and former employees without duplicates.
+82. Display all departments from both employee tables.
+83. Display all customer names from domestic and international customers.
+84. Display all customer cities without duplicates.
+85. Display all order amounts from both order tables without duplicates.
+
+UNION ALL
+-----------------------------------------
+
+86. Display all employee names including duplicates.
+87. Display all departments including duplicate values.
+88. Display all customer names including duplicates.
+89. Display all customer cities including duplicates.
+90. Display all order amounts including duplicate values.
+
+EXCEPT
+-----------------------------------------
+
+91. Find current employees who are not former employees.
+92. Find former employees who are not current employees.
+93. Find domestic customers not present internationally.
+94. Find online orders not present in store orders.
+95. Find departments that exist only in current employees.
+
+INTERSECT
+-----------------------------------------
+
+96. Find employees present in both tables.
+97. Find common departments.
+98. Find customers present in both customer tables.
+99. Find common cities.
+100. Find common orders.
+
+=========================================
+INTERMEDIATE ASSIGNMENTS
+=========================================
+
+UNION
+-----------------------------------------
+
+101. Display all employee IDs and names.
+102. Display all customer IDs and names.
+103. Display all salaries without duplicates.
+104. Display all order IDs.
+105. Combine employee and former employee department lists.
+
+UNION ALL
+-----------------------------------------
+
+106. Count total rows returned using UNION ALL.
+107. Display all customer records including duplicates.
+108. Display all salaries including duplicates.
+109. Display all customer cities.
+110. Display all order amounts.
+
+EXCEPT
+-----------------------------------------
+
+111. Find employee IDs existing only in CurrentEmployees.
+112. Find employee IDs existing only in FormerEmployees.
+113. Find customer IDs existing only in DomesticCustomers.
+114. Find customer IDs existing only in InternationalCustomers.
+115. Find online order IDs not found in StoreOrders.
+
+INTERSECT
+-----------------------------------------
+
+116. Find employee IDs common to both tables.
+117. Find common customer IDs.
+118. Find common order IDs.
+119. Find common salaries.
+120. Find common departments.
+
+=========================================
+ADVANCED ASSIGNMENTS
+=========================================
+
+UNION
+-----------------------------------------
+
+121. Combine employee names with customer names into one list.
+122. Create a unique list of all people and organizations.
+123. Display all departments from both tables in alphabetical order.
+124. Combine customer cities and employee departments into one result set.
+125. Display all IDs from employees and customers.
+
+UNION ALL
+-----------------------------------------
+
+126. Combine all employee and former employee records with duplicates.
+127. Display all order records.
+128. Display all customer records.
+129. Display employee names with a new column indicating the source table (Current/Former).
+130. Combine online and store orders with a source column.
+
+EXCEPT
+-----------------------------------------
+
+131. Find customers who ordered online but never ordered in-store.
+132. Find customers who ordered in-store but never ordered online.
+133. Find employee names existing only in current employees.
+134. Find departments unique to former employees.
+135. Find customer cities unique to domestic customers.
+
+INTERSECT
+-----------------------------------------
+
+136. Find customers who ordered both online and in-store.
+137. Find employees existing in both tables.
+138. Find departments appearing in both employee tables.
+139. Find customer names appearing in both customer tables.
+140. Find common salaries between current and former employees.
